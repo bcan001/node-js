@@ -1,0 +1,184 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'prettyjson', '-g' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 silly cache add args [ 'prettyjson', null ]
+5 verbose cache add spec prettyjson
+6 silly cache add parsed spec { raw: 'prettyjson',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'prettyjson',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed prettyjson@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'prettyjson', range: '*', hasData: false }
+11 silly mapToRegistry name prettyjson
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/prettyjson
+15 verbose addNameRange registry:https://registry.npmjs.org/prettyjson not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/prettyjson
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 12:17:01 AM
+19 verbose request id d87191049655741d
+20 http request GET https://registry.npmjs.org/prettyjson
+21 http 200 https://registry.npmjs.org/prettyjson
+22 silly get cb [ 200,
+22 silly get   { date: 'Mon, 13 Apr 2015 05:16:56 GMT',
+22 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly get     etag: '"71L6PQBAL006PIBPVGU4RG44D"',
+22 silly get     'content-type': 'application/json',
+22 silly get     'cache-control': 'max-age=60',
+22 silly get     'content-length': '37584',
+22 silly get     'accept-ranges': 'bytes',
+22 silly get     via: '1.1 varnish',
+22 silly get     age: '0',
+22 silly get     'x-served-by': 'cache-ord1720-ORD',
+22 silly get     'x-cache': 'MISS',
+22 silly get     'x-cache-hits': '0',
+22 silly get     'x-timer': 'S1428902216.501161,VS0,VE166',
+22 silly get     vary: 'Accept',
+22 silly get     'keep-alive': 'timeout=10, max=50',
+22 silly get     connection: 'Keep-Alive' } ]
+23 verbose get saving prettyjson to /Users/bencaneba/.npm/registry.npmjs.org/prettyjson/.cache.json
+24 silly addNameRange number 2 { name: 'prettyjson', range: '*', hasData: true }
+25 silly addNameRange versions [ 'prettyjson',
+25 silly addNameRange   [ '0.0.1',
+25 silly addNameRange     '0.1.0',
+25 silly addNameRange     '0.1.1',
+25 silly addNameRange     '0.1.2',
+25 silly addNameRange     '0.1.3',
+25 silly addNameRange     '0.1.4',
+25 silly addNameRange     '0.2.0',
+25 silly addNameRange     '0.2.1',
+25 silly addNameRange     '0.3.0',
+25 silly addNameRange     '0.3.1',
+25 silly addNameRange     '0.4.0',
+25 silly addNameRange     '0.5.0',
+25 silly addNameRange     '0.6.0',
+25 silly addNameRange     '0.7.0',
+25 silly addNameRange     '0.7.1',
+25 silly addNameRange     '0.8.0',
+25 silly addNameRange     '0.8.1',
+25 silly addNameRange     '0.9.0',
+25 silly addNameRange     '0.10.0',
+25 silly addNameRange     '0.11.0',
+25 silly addNameRange     '0.11.1',
+25 silly addNameRange     '0.12.0',
+25 silly addNameRange     '0.12.1',
+25 silly addNameRange     '0.13.0',
+25 silly addNameRange     '1.0.0',
+25 silly addNameRange     '1.1.0' ] ]
+26 verbose addNamed prettyjson@1.1.0
+27 silly addNamed semver.valid 1.1.0
+28 silly addNamed semver.validRange 1.1.0
+29 silly mapToRegistry name prettyjson
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/prettyjson
+33 verbose addRemoteTarball https://registry.npmjs.org/prettyjson/-/prettyjson-1.1.0.tgz not in flight; adding
+34 verbose addRemoteTarball [ 'https://registry.npmjs.org/prettyjson/-/prettyjson-1.1.0.tgz',
+34 verbose addRemoteTarball   'de1bc2711a5b7b7a944c217849ec65f299bd4751' ]
+35 info retry fetch attempt 1 at 12:17:02 AM
+36 info attempt registry request try #1 at 12:17:02 AM
+37 http fetch GET https://registry.npmjs.org/prettyjson/-/prettyjson-1.1.0.tgz
+38 http fetch 200 https://registry.npmjs.org/prettyjson/-/prettyjson-1.1.0.tgz
+39 silly fetchAndShaCheck shasum de1bc2711a5b7b7a944c217849ec65f299bd4751
+40 verbose addTmpTarball /var/folders/3n/n3vb2wjx3cg9s_fjnmhf8rp40000gn/T/npm-6407-bae7d6d0/registry.npmjs.org/prettyjson/-/prettyjson-1.1.0.tgz not in flight; adding
+41 verbose addTmpTarball already have metadata; skipping unpack for prettyjson@1.1.0
+42 silly cache afterAdd prettyjson@1.1.0
+43 verbose afterAdd /Users/bencaneba/.npm/prettyjson/1.1.0/package/package.json not in flight; writing
+44 verbose afterAdd /Users/bencaneba/.npm/prettyjson/1.1.0/package/package.json written
+45 silly install resolved [ { author:
+45 silly install resolved      { name: 'Rafael de Oleza',
+45 silly install resolved        email: 'rafeca@gmail.com',
+45 silly install resolved        url: 'https://github.com/rafeca' },
+45 silly install resolved     name: 'prettyjson',
+45 silly install resolved     description: 'Package for formatting JSON data in a coloured YAML-style, perfect for CLI output',
+45 silly install resolved     version: '1.1.0',
+45 silly install resolved     homepage: 'http://rafeca.com/prettyjson',
+45 silly install resolved     keywords: [ 'json', 'cli', 'formatting', 'colors' ],
+45 silly install resolved     repository: { type: 'git', url: 'https://github.com/rafeca/prettyjson.git' },
+45 silly install resolved     bugs: { url: 'https://github.com/rafeca/prettyjson/issues' },
+45 silly install resolved     main: './lib/prettyjson',
+45 silly install resolved     scripts:
+45 silly install resolved      { test: 'npm run jshint && mocha --reporter spec',
+45 silly install resolved        testwin: 'node ./node_modules/mocha/bin/mocha --reporter spec',
+45 silly install resolved        jshint: 'jshint lib/*.js',
+45 silly install resolved        coverage: 'istanbul cover _mocha --report lcovonly -- -R spec',
+45 silly install resolved        coveralls: 'npm run coverage && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage',
+45 silly install resolved        changelog: 'git log $(git describe --tags --abbrev=0)..HEAD --pretty=\'* %s\' --first-parent' },
+45 silly install resolved     bin: { prettyjson: './bin/prettyjson' },
+45 silly install resolved     engines: { node: '>= 0.10.0 < 0.12.0' },
+45 silly install resolved     dependencies: { colors: '0.6.2', minimist: '0.0.8' },
+45 silly install resolved     devDependencies:
+45 silly install resolved      { mocha: '^1.18.2',
+45 silly install resolved        should: '^3.1.4',
+45 silly install resolved        jshint: '^2.4.4',
+45 silly install resolved        getversion: '~0.1.1',
+45 silly install resolved        istanbul: '~0.2.4',
+45 silly install resolved        coveralls: '^2.10.0',
+45 silly install resolved        'mocha-lcov-reporter': '0.0.1' },
+45 silly install resolved     gitHead: '5ab0755baae84985f094d27ad0332d6437f34e86',
+45 silly install resolved     _id: 'prettyjson@1.1.0',
+45 silly install resolved     _shasum: 'de1bc2711a5b7b7a944c217849ec65f299bd4751',
+45 silly install resolved     _from: 'prettyjson@*',
+45 silly install resolved     _npmVersion: '2.4.1',
+45 silly install resolved     _nodeVersion: '0.10.32',
+45 silly install resolved     _npmUser: { name: 'rafeca', email: 'rafeca@gmail.com' },
+45 silly install resolved     maintainers: [ [Object] ],
+45 silly install resolved     dist:
+45 silly install resolved      { shasum: 'de1bc2711a5b7b7a944c217849ec65f299bd4751',
+45 silly install resolved        tarball: 'http://registry.npmjs.org/prettyjson/-/prettyjson-1.1.0.tgz' },
+45 silly install resolved     directories: {},
+45 silly install resolved     _resolved: 'https://registry.npmjs.org/prettyjson/-/prettyjson-1.1.0.tgz' } ]
+46 info install prettyjson@1.1.0 into /usr/local/lib
+47 info installOne prettyjson@1.1.0
+48 verbose installOne of prettyjson to /usr/local/lib not in flight; installing
+49 verbose lock using /Users/bencaneba/.npm/_locks/prettyjson-d26a987dc901739f.lock for /usr/local/lib/node_modules/prettyjson
+50 warn engine prettyjson@1.1.0: wanted: {"node":">= 0.10.0 < 0.12.0"} (current: {"node":"0.12.0","npm":"2.5.1"})
+51 silly install write writing prettyjson 1.1.0 to /usr/local/lib/node_modules/prettyjson
+52 silly cache addNamed cb prettyjson@1.1.0
+53 verbose unbuild lib/node_modules/prettyjson
+54 verbose gentlyRm vacuuming /usr/local/lib/node_modules/prettyjson
+55 verbose tar unpack /Users/bencaneba/.npm/prettyjson/1.1.0/package.tgz
+56 verbose tar unpacking to /usr/local/lib/node_modules/prettyjson
+57 verbose gentlyRm vacuuming /usr/local/lib/node_modules/prettyjson
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 error tar.unpack untar error /Users/bencaneba/.npm/prettyjson/1.1.0/package.tgz
+60 verbose unlock done using /Users/bencaneba/.npm/_locks/prettyjson-d26a987dc901739f.lock for /usr/local/lib/node_modules/prettyjson
+61 verbose fstream_path /usr/local/lib/node_modules/prettyjson
+62 verbose fstream_type Directory
+63 verbose fstream_class DirWriter
+64 verbose stack Error: EACCES, mkdir '/usr/local/lib/node_modules/prettyjson'
+64 verbose stack     at Error (native)
+65 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+65 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+65 verbose fstream_stack FSReqWrap.oncomplete (fs.js:99:15)
+66 verbose cwd /Users/bencaneba/Desktop/nodejs/treehousesite
+67 error Darwin 13.4.0
+68 error argv "node" "/usr/local/bin/npm" "install" "prettyjson" "-g"
+69 error node v0.12.0
+70 error npm  v2.5.1
+71 error path /usr/local/lib/node_modules/prettyjson
+72 error code EACCES
+73 error errno -13
+74 error Error: EACCES, mkdir '/usr/local/lib/node_modules/prettyjson'
+74 error     at Error (native)
+74 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/prettyjson']
+74 error   errno: -13,
+74 error   code: 'EACCES',
+74 error   path: '/usr/local/lib/node_modules/prettyjson',
+74 error   fstream_type: 'Directory',
+74 error   fstream_path: '/usr/local/lib/node_modules/prettyjson',
+74 error   fstream_class: 'DirWriter',
+74 error   fstream_stack:
+74 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+74 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+74 error      'FSReqWrap.oncomplete (fs.js:99:15)' ] }
+75 error Please try running this command again as root/Administrator.
+76 verbose exit [ -13, true ]
+77 verbose unbuild lib/node_modules/prettyjson
+78 verbose gentlyRm vacuuming /usr/local/lib/node_modules/prettyjson
